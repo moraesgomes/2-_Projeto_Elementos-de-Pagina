@@ -35,13 +35,9 @@
     }
 }
 
-@media (min-height:631px) {
 
-    .container-menu{
-        display: none;
-    }
 
-}
+
 
 @media (max-width : 1000px) {
 
@@ -86,25 +82,26 @@
 
         position:absolute;
         display: block;
-        height: 50px;
+        height: 10px;
         width: 100%;
         background: white;
         border-radius: 30px;
         transition: 0.25s ease-in-out;
+        
     }
 
-    label span:nth-child(1){
-        top:0;
+     span:nth-child(1){
+        top: 0px;
 
     }
 
     label span:nth-child(2){
-        top: 8px;;
+        top: 8px;
         
     }
 
     label span:nth-child(3){
-        top: 16px;;
+        top: 16px;
         
     }
 

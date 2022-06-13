@@ -60,6 +60,10 @@ header .container img{
     
 }
 
+#checkbox-menu{
+    display: none;
+}
+
 /* main */
 
 
