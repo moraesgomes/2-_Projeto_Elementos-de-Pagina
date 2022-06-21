@@ -3,21 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="icon" type="image/x=icon" href="/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/b4971a44cf.js" crossorigin="anonymous"></script>
     <title>StartSe</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsive.css" />
 </head>
 
 <body>
     <header>
         <div class="container">
-            <img src="./images/image.png" alt="logo" />
+            <img src="/images/image.png" />
             <div class="menu-section">
                 <div class="container-menu">
-                    <input type="checkbox" id="checkbox-menu" />
+                    <input type="checkbox" name="" id="checkbox-menu">
                     <label class="menu-button-container" for="checkbox-menu">
                         <span></span>
                         <span></span>
@@ -26,13 +27,13 @@
                     <nav>
                         <ul class="menu">
                             <li>
-                                <a href="#home">Home</a>
+                                <a href="#home" target="_blank">Home</a>
                             </li>
                             <li>
-                                <a href="#artigos">Artigos</a>
+                                <a href="#artigos" target="_blank">Artigos</a>
                             </li>
                             <li>
-                                <a href="#form">Contato</a>
+                                <a href="#form" target="_blank">Contato</a>
                             </li>
                         </ul>
                     </nav>
@@ -40,117 +41,191 @@
             </div>
         </div>
     </header>
+
     <main id="home">
-        <div class="container-main">
-            <div>
-                <h2><span>Inscreva-se agora</span></h2>
-                <h2>na Newsletter</h2>
-                <h3>
-                    Provocando novos começos com um conhecimento transformador na
-                    velocidade do AGORA!
-                </h3>
-                <form>
-                    <input type="text" placeholder="Nome" />
-                    <input type="email" placeholder="E-mail" />
-                    <input type="submit" value="Enviar" />
+        <div class="container container-main">
+            <div id="main-info">
+                <div>
+                    <h2><span>Inscreva-se Agora</span></h2>
+                    <h2>na Newsletter</h2>
+                    <h3>Provocando novos começos com conhecimento transformadorna velocidade do AGORA</h3>
+                </div>
+                <form action="">
+                    <input width="10" type="text" name="" id="" placeholder="Nome">
+                    <input type="text" name="" id="" placeholder="E-mail">
+                    <input type="submit" value="enviar">
                 </form>
             </div>
-            <img src="./images/register.webp" alt="">
+            <img src="/images/register.webp" alt="imagem area de registro">
         </div>
     </main>
     <section id="artigos" class="cards">
-        <a href="https://www.startse.com/artigos/ferramentas-digitais-sao-chave-na-gestao-financeira-das-startups/">
+        
+        <a href="/artigos/futuro/futuro.html">
             <div class="card">
                 <div class="image">
-                    <img src="./images/comp.webp" />
+                    <img src="/images/futuro.webp" alt="imagem do card - IA">
                 </div>
 
                 <div class="content">
-                    <p class="title text--medium">
-                        Por que ferramentas digitais são chave na gestão financeira das startups
-                    </p>
-                    <div class="info">
-                        <p class="text--medium">57 Min</p>
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a href="./artigos/futuro/futuro.html">
-            <div class="card">
-                <div class="image">
-                    <img src="./images/futuro.webp" />
-                </div>
-
-                <div class="content">
-                    <p class="title text--medium">
+                    <p class="title text-medium">
                         Qual o futuro das profissões na Nova Economia?
                     </p>
                     <div class="info">
-                        <p class="text--medium">57 Min</p>
+                        <p class="text-medium">
+                            57min
+                        </p>
                     </div>
                 </div>
             </div>
         </a>
-        <a href="https://www.startse.com/artigos/ia-e-saude-mental-como-padroes-de-voz-podem-ajudar-no-diagnostico">
+        <a href="https://www.startse.com/artigos/inteligencia-artificial-e-os-contornos-eticos-nas-empresas/">
         <div class="card">
             <div class="image">
-                <img src="./images/IA_mental.webp" />
+                <img src="/images/IA_mental.webp" alt="imagem do card - IA">
             </div>
 
             <div class="content">
-                <p class="title text--medium">
-                    IA e saúde mental: como padrões de voz podem ajudar no diagnóstico
+                <p class="title text-medium">
+                    Inteligência artificial e os contornos éticos nas empresas
                 </p>
                 <div class="info">
-                    <p class="text--medium">57 Min</p>
+                    <p class="text-medium">
+                        57min
+                    </p>
                 </div>
             </div>
         </div>
+        
         </a>
-        <a href="https://www.startse.com/artigos/as-18-profissoes-que-mais-irao-crescer-no-brasil-ate-2023">
+        <a href="https://www.startse.com/artigos/carro-eletrico-com-placas-solares-pode-ficar-7-meses-longe-das-tomadas/">
         <div class="card">
             <div class="image">
-                <img src="./images/home-office.webp" />
+                <img src="/images/carro-eletrico.jpg" alt="imagem do card - carro eletrico">
             </div>
 
             <div class="content">
-                <p class="title text--medium">
-                    As 18 profissões que mais irão crescer no Brasil até 2023
+                <p class="title text-medium">
+                    Carro elétrico com placas solares pode ficar 7 meses longe das tomadas
                 </p>
                 <div class="info">
-                    <p class="text--medium">57 Min</p>
+                    <p class="text-medium">
+                        57min
+                    </p>
                 </div>
             </div>
         </div>
        </a>
     </section>
-    <section id="form-contact">
-        <h3 style="text-align: center;">Entre em contato</h3>
-        <form id="name-contact">
-            <input type="text" value="" placeholder="Escreva seu nome" />
-        </form>
-    </section>
-    <section id="textarea">
-         <textarea placeholder=" Escreva sua mensagem" rows="15" cols="60"></textarea>
-    </section>
-    <br> <br> 
-    <section id="rules">
-        <a href="https://docs.startse.com/politica-de-privacidade?_ga=2.180900514.443076342.1654780774-1171558351.1654780774"
-            target="_blank">
-            <input type="checkbox" name="subject" value="privacidade"> Concorda com a  política de privacidade
-        </a>
-    </section>
-    <br><br>
-    <section id="button2">
-        <button><a href=mailto:moraesgomes@gmail.com>Enviar</a></button>
-    </section>
-    <br>
-    <footer id="contacts">
-         @ Todos os direitos reservados
-       
-    </footer>  
 
+    <section id="form">
+        <div class="form-input">
+
+            <div class="contact-form">
+
+                <div>
+                    <h2>Entre em contato conosco</h2>
+                    <h5>Informe seus Dados</h5>
+                </div>
+
+                <div class="input-group" action="">
+
+                    <div class="n-group">
+                        <input type="text" name="fname" required class="input">
+                        <label class="input-label" for="fname" >Nome</label>
+                        <span class="border-bottom"></span>
+                    </div>
+
+                    <div class="n-group">
+                        <input type="email" name="email" required class="input">
+                        <label class="input-label" for="">Email</label>
+                        <span class="border-bottom"></span>
+                    </div>
+
+                    <div class="n-group">
+                        <input type="tel" name="phone" required class="input">
+                        <label class="input-label" for="">Celular</label>
+                        <span class="border-bottom"></span>
+                    </div>
+
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button>Enviar</button>
+
+                </div>
+
+            </div>
+
+            <div class="contact-logo">
+               
+            </div>
+
+            <div class="contact-elements">
+                <h5>Siga a StartSe nas Redes Sociais:</h5>
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </div>
     </section>
+
+    <section id="form-responsive">
+        <div class="form-input-responsive">
+
+            <div class="contact-form">
+
+                <div>
+                    <h2>Entre em contato conosco</h2>
+                    <h5>Informe seus Dados</h5>
+                </div>
+
+                <div class="input-group" action="">
+
+                    <div class="n-group">
+                        <input type="text" name="fname" required class="input">
+                        <label class="input-label" for="fname">Nome</label>
+                        <span class="border-bottom"></span>
+                    </div>
+
+                    <div class="n-group">
+                        <input type="email" name="email" required class="input">
+                        <label class="input-label" for="">Email</label>
+                        <span class="border-bottom"></span>
+                    </div>
+
+                    <div class="n-group">
+                        <input type="tel" name="phone" required class="input">
+                        <label class="input-label" for="">Celular</label>
+                        <span class="border-bottom"></span>
+                    </div>
+
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button>Enviar</button>
+
+                    <div class="contact-elements-responsive">
+                        <h5>Siga a StartSe nas Redes Sociais:</h5>
+                        <div class="icons">
+                            <a href="https://www.instagram.com/startseoficial"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/startseoficial"><i
+                                    class="fa-brands fa-facebook-square"></i></a>
+                            <a href="https://www.youtube.com/startseoficial"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/company/startse"><i
+                                    class="fa-brands fa-linkedin"></i></i></a>
+                            <a href="https://twitter.com/startseoficial"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
